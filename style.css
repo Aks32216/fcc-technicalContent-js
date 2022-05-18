@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Dosis:wght@300&family=Jura&family=Khand&family=Satisfy&display=swap');
+/* font-family: 'Changa', sans-serif; 
+font-family: 'Khand', sans-serif;
+font-family: 'Jura', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.sidebar{
+    border-right: 4px solid gray;
+    text-align: left;
+    width: 16vw;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sidebar>h1{
+    margin-left: 1.5rem;
+}
+
+.list{
+    width: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.list>li{
+    
+    border-top: 2px solid gray;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    font-size: 110%;
+    
+}
+
+li>a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #303030;
+}
+
+.mainsection{
+    margin-left: 16vw;
+    width: 84vw;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.section{
+    margin: 1.5rem;
+}
+
+.heads{
+    font-size: 120%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contents{
+    padding-left: 1rem;
+    font-size: 105%;
+    font-family: 'Jura', sans-serif;
+}
+
+.code{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(56,56,56,0.2);
+    border-radius: 5px;
+}
+
+footer{
+    
+}
